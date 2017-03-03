@@ -1,0 +1,27 @@
+Unreal version :4.13.1 but it works on 4.13.2
+*Once the engine loads,press content, press Burninghouse2 to open the main level.
+
+5 mechanics 
+- key collection 
+-unlock door
+-fire damage
+-fire spreads
+-timer 
+-Health depletes 
+
+How to access game blueprint : 
+Content -> FirstPersonBP-> blueprints 
+
+-collectable (key collection mechanic)
+-door (unlock door mechanic)
+- First person character (Hud Display)
+- Game over ( Game over mechanic)
+- Hud (Timer ) 
+-PFire (Fire damage) 
+
+Level blueprint :
+- Fire spreads (repeats fire spreading mechanic)
+- Health (game over)
+
+* Fire takes 7 seconds to appear
+* once you have collected a key you must walk into a door to open it. 
